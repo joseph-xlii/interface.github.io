@@ -1,46 +1,25 @@
-h2{
-  color: purple;
-  background:yellow;
-  font-style:italic;
-  border: 10px solid black;
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Trirong", sans-serif;
 }
 
-
-#box {
-  color: yellow;
-  background:blue;
-  width: 100px;
-  height: 100px;
-  font-style:italic;
-  margin: 5px;
-  padding: 5px;
-  border: 5px solid yellow;
-
-
- }
-.pretty{
-  color:white;
-  background:black;
-  width: 100px;
-  height: 100px;
-  font-style: italic;
-  margin: 5px;
-  padding: 5px;
-  border: 5px solid purple;
+.container {
+  width: 100%;
+  height: 100vh;
+  background-image: url(images/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 8%;
+  padding-right: 8%;
 
 }
-#images {
-  width: 600px;
-  height: 400px;
-}
-#tester {
-  color: green;
-  font-size: 100px;
-
-}
-body {
-  
-  font-family:fantasy;
-  background:#a2a2a2;
+h1 {
+  color: #fff;
+  display: flex;
+  height: 88%;
+  align-items: center;
+  font-size: 60px;
 
 }
